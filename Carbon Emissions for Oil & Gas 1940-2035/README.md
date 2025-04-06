@@ -1,16 +1,16 @@
 # Carbon Emissions Analysis
 
 ## Overview  
-This project analyzes carbon emissions data from major oil & gas companies over time. The goal is to identify trends, categorize companies based on their emissions levels, and visualize the results.  
+This project analyses carbon emissions data from major oil & gas companies over time. The goal is to identify trends, categorise companies based on their emissions levels, and visualise the results.  
 
 ## Key Research Question  
 1. How have total emissions from major oil & gas companies changed over time?  
 
 ## Methodology  
 - **Data Cleaning:** Removed duplicates, handled missing values, and formatted time-series data.  
-- **Categorization:** Companies were grouped into **Low, Medium, and High emission categories** based on quantiles.  
-- **Normalization:** Min-Max Scaling was applied to ensure fair comparison between different companies.  
-- **Visualization:** A **time-series line chart** was created to track emission trends over the years.  
+- **Categorisation:** Companies were grouped into **Low, Medium, and High emission categories** based on quantiles.  
+- **Normalisation:** Min-Max Scaling was applied to ensure fair comparison between different companies.  
+- **Visualisation:** A **time-series line chart** was created to track emission trends over the years.  
 
 ## Findings  
 - Emissions have generally increased over time, especially since the mid-20th century.  
