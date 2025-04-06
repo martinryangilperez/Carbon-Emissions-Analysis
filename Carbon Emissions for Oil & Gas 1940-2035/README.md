@@ -1,26 +1,18 @@
-# Carbon Emissions Analysis
+# Carbon Emissions Analysis for Oil & Gas (1940–2035)
 
-## Overview  
-This project analyses carbon emissions data from major oil & gas companies over time. The goal is to identify trends, categorise companies based on their emissions levels, and visualise the results.  
+## Product Overview
 
-## Key Research Question  
-1. How have total emissions from major oil & gas companies changed over time?  
+### Vision
+To empower climate-conscious stakeholders with transparent insights into historical and future oil & gas carbon emissions, enabling more informed decisions for environmental impact and policy development.
 
-## Methodology  
-- **Data Cleaning:** Removed duplicates, handled missing values, and formatted time-series data.  
-- **Categorisation:** Companies were grouped into **Low, Medium, and High emission categories** based on quantiles.  
-- **Normalisation:** Min-Max Scaling was applied to ensure fair comparison between different companies.  
-- **Visualisation:** A **time-series line chart** was created to track emission trends over the years.  
+### Mission
+To create a reproducible, data-driven tool that visualizes and analyzes emissions data from 1940 to 2035 — identifying top emitters, emission trends, and opportunities for intervention in the oil & gas sector.
 
-## Findings  
-- Emissions have generally increased over time, especially since the mid-20th century.  
-- High-emission companies show exponential growth, while medium and low emitters have more fluctuations.  
-- Recent declines in some categories could be linked to policy changes, economic slowdowns, or clean energy adoption.  
-
-## Further Research  
-- What are the biggest drivers of emission reductions? (Regulations, market shifts, technology investments?)  
-- How do emissions differ by region? (Comparing policies across different countries.)  
-- Which companies are transitioning to renewable energy? (Are they actually reducing emissions?)  
+### Strategy
+- Use publicly available datasets to analyze emissions patterns over time.
+- Visualize trends clearly using Python and data visualization libraries.
+- Structure the project with a product-thinking mindset (vision, PRD, user stories, iteration).
+- Allow for future integration with machine learning models and scenario testing.
 
 ## Technologies Used  
 - **Python** (Pandas, Matplotlib, NumPy, Scikit-learn)  
