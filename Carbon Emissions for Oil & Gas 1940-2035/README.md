@@ -32,10 +32,31 @@ To create a reproducible, data-driven tool that visualizes and analyzes emission
 - Initial prediction extension to 2035 based on available historical trends.
 - Highlighting the “worst offenders” in each category.
 
+## 📁 Dataset Description
+
+- **Source**: BP Statistical Review of World Energy
+- **Variables**: Year, Country/Company, CO₂ Emissions (Million tonnes)
+- **Timeframe**: 1940–2035 (past and projected)
+- **Cleaning Steps**: Removed missing values, unified units, and normalised categories for consistency
 
 ## Technologies Used  
 - **Python** (Pandas, Matplotlib, NumPy, Scikit-learn)  
 - **GitHub** (Version control)  
+
+## 🔁 Future Development & Experiments
+
+- Introduce clustering or outlier detection for emission intensities
+- Add interactive dashboards (e.g. using Plotly or Streamlit)
+- Hypothetical scenarios:
+  - “If Company X reduced emissions by 25%, how would global totals shift?”
+  - “What policy measures could realistically reduce the top 10 emitters' footprints?”
+
+## 🧠 Learnings & Product Thinking
+
+- Practised applying product principles to a technical project
+- Learned how to write user stories and think in terms of goals, not just outputs
+- Gained experience building reusable templates for analysis and iterating based on findings
+
 
 ## How to Run This Project  
 1. Clone the repository:  
